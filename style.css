@@ -1,0 +1,55 @@
+.header {
+    color: white;
+    background-color: #2477a7;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    padding: 20px 150px;
+}
+   
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    text-align: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 1000;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    color: #2477a7;
+
+}
+
+.home_images{
+    display: flex;
+    gap: 10px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.home_images img{
+    width: auto;
+    height: 400px;
+}
+
+.books {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
