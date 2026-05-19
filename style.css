@@ -1,9 +1,8 @@
 .header {
-    color: white;
+    color: #daf1ff;
     background-color: #2477a7;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
     text-align: center;
     padding: 20px 150px;
 }
@@ -13,18 +12,17 @@ nav ul {
     display: flex;
     gap: 25px;
     text-align: center;
-
+    margin-top:32px;
 }
 
 nav a {
     text-decoration: none;
     color: white;
     font-weight: 1000;
-    
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #daf1ff;
 }
 
 .title {
@@ -39,6 +37,7 @@ nav a:hover {
     gap: 10px; 
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
 }
 
 .home_images img{
@@ -77,4 +76,13 @@ nav a:hover {
     text-align: center;
     color: #2477a7;
     padding: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 40px;
+    color: #ebf9fd;
+    background-color: #2477a7;
 }
